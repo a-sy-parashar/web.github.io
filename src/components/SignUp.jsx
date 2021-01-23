@@ -6,7 +6,7 @@ const SignUp=()=>{
     return(
         <>
        <Navbar/>
-       <h3 className="contact">.</h3>
+       <h3 className="contact"></h3>
        <Footer/>
         </>
     );
