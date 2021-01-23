@@ -6,7 +6,8 @@ const Login=()=>{
     return(
         <>
        <Navbar/>
-       <Footer/>
+       <h3 className="contact"> <a href=""></a></h3>
+       <Footer className="lfooter"/>
         </>
     );
 }

@@ -49,9 +49,11 @@
                border-radius:5px;
                border-color:rgba(255, 255, 255, 0);
                width:12vw;
+               font-family: 'Redressed', cursive;
 }
 .container .box3 .a{
     font-size: 3.8vh;
+    font-family: 'Redressed', cursive;
     
 
 }
@@ -77,6 +79,7 @@
     align-items: center;
     text-align: center;
     flex-wrap:wrap;
+    font-family: 'Redressed', cursive;
     
    margin-top:5vh;
 
@@ -134,8 +137,8 @@
 .content .btn{
     padding: 0vw;
     color:rgb(3, 66, 37);
-    
-    border: 1px solid red;
+    background: -webkit-linear-gradient( left,#f5cbcb,#00a2ff9e,#0aff0aad);
+    border: 2px solid -webkit-linear-gradient( left,#ecea51,#00a2ff9e,#f70affad);;
     width:8vw;
     margin:2vw;
     border-radius:4px;
@@ -179,13 +182,15 @@ transform: translateY(-15px);
     width: 20vw;
     height:45vh;
     border-radius: 12px;
-    border:1px solid red;
+    /* border:1px solid red; */
     text-align: center;
     align-items: center;
     background: #f5cbcb;
     margin:1.5vw;
+    font-family: 'Redressed', cursive;
     
 }
+
 .main{ 
     display: flex;
     flex-direction: row;
@@ -200,6 +205,8 @@ transform: translateY(-15px);
     text-align: center;
     justify-content: center;
     width: 100vw;
+    font-family: 'Redressed', cursive;
+    
 }
 .subcard img{
     display:flex;
@@ -207,33 +214,40 @@ transform: translateY(-15px);
     width: 20vw;
     height:40vh;
     border-radius: 12px 12px 0px 0px;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 @media only screen and (max-width: 640px) {
+    
     .container{
         background:none;
         /* border:1px solid red; */
         display:block;
+        width: 100vw;
         
     
     }
     .container .box{
         /* border:1px solid red; */
         display:block;
-        margin: 5vh;
+       
+        width: 100vw;
         
         
     }
     .footer{
         background: -webkit-linear-gradient( left,#f5cbcb,#00a2ff9e,#0aff0aad);
+        margin-top:2vh;
+        width: 100vw;
+        font-family: 'Redressed', cursive;
        
     }
     .container .box2 input{
         height:4vh;
         /* outline:rgb(17, 13, 13); */
-        border-radius:5px;
+        border-radius:10px;
         border-color:rgb(22, 12, 12);
-        width:50vw;
+        width:98vw;
+        font-family: 'Redressed', cursive;
 }
  li  {
     margin:15px 0px;
@@ -242,25 +256,23 @@ transform: translateY(-15px);
     font-size: 3.8vh;
     font-family: 'Times New Roman', Times, serif;
     color: -webkit-linear-gradient(left,green,blue,red);
+    font-family: 'Redressed', cursive;
     /* padding:3vh; */
     
     
 }
-.btn{
-    height:5vh;
-    width:1.5vw;
-     background:rgba(3, 66, 37, 0.274);
-}
+
 .btn:hover{
     
      background: rgb(51, 255, 0);
      color:red;
      text-align: center;
      justify-content: center;
+     background-color: rgba(11, 85, 60, 0.712);
      align-items: center;
 }
 .container .box2 .a{
-    margin:2vh;
+    margin:0vh;
     text-decoration: none;
     font-size: 3.8vh;
     font-family: 'Times New Roman', Times, serif;
@@ -268,4 +280,108 @@ transform: translateY(-15px);
     
     
 }
+
+ .headermain{
+    display: block;
+    /* border: 2px solid red; */
+    box-sizing:content-box;
+
+    
+    width: 100vw;
+    justify-content: center;
+    align-items:flex-start;
+    text-align: center;
+    height:auto;
+    
+}
+
+
+.headerimg img{
+    height: 40vh;
+    width:100vw;
+    margin-top: 5vh;
+    border-radius:15px; 
+    
+}
+.content h1{
+    margin-left: 0vw;
+    margin-bottom:1.5vw;
+    color:rgb(3, 66, 37);
+    width:100vw;
+    align-items: center;
+    font-family: 'Redressed', cursive;
+}
+.content .btn{
+   
+    color:rgb(3, 66, 37);
+    
+    /* border: 1px solid red; */
+    width:25vw;
+    align-items: center;
+    background: -webkit-linear-gradient( left,#f5cbcb,#00a2ff9e,#0aff0aad);
+    border-radius:10px;
+    font-family: 'Redressed', cursive;
+    
+}
+.contact{
+    margin-top:60vh;
+}
+
+.subcard img{
+    display: block;
+    width: 99vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height:40vh;
+    margin: auto;
+    
+    border-radius: 12px 12px 0px 0px;
+    
+}
+.main{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 99vw;
+    margin-left: -0.6vh;
+   
+    
+   
+   
+}
+.shead{
+    margin-top: 40vh;
+    font-family: 'Redressed', cursive;
+}
+.subcard{
+    display:block;
+  
+    width: 99vw;
+    height:45vh;
+    border-radius: 10px;
+    margin-top: 4vh;
+    border:1px solid rgba(13, 80, 46, 0.575);
+    background-color:rgba(13, 80, 46, 0.575) ;
+    font-family: 'Redressed', cursive;
+    
+    
+    
+}
+h3{
+    padding: 1vh;
+    font-family: 'Redressed', cursive;
+}
+.container .box3 .a{
+    font-size: 3.8vh;
+    font-family: 'Redressed', cursive;
+    
+
+}
+
+
+
+
+
+
 }
